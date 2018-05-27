@@ -16,7 +16,7 @@ var botenabled = true;
 var storynumber = db.get('histoires').map('story_value').value();
 
 bot.on('ready', () => {
-    bot.user.setPresence({ game: { name: 'Être dev par Lara [*help]', type: 0}});
+    bot.user.setPresence({ game: { name: 'Être dev par SCP_One_Zero_Six [*help]', type: 0}});
     console.log('Bot Ready !');
 });
 
