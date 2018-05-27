@@ -187,9 +187,6 @@ bot.on('message', message => {
         message.channel.send("Bon, t'as fini ? Le mouchoir est plein ! Ca déborde ! t'en fout partout ! https://cdn.discordapp.com/attachments/428932127258705940/436650802669682689/telecharge_2.jpg");
         console.log('Neko6');
     }
-
-
-        
     if (message.content === prefix + "help"){
         var help_embed = new Discord.RichEmbed()
             .setColor('#5A01F4')
@@ -246,9 +243,6 @@ bot.on('message', message => {
         console.log(story);
         
         message.channel.send(`Voici l'histoire : ${story} (Histoire de ${author_story})`)
-        
-        break;
-
         
         break;
         
