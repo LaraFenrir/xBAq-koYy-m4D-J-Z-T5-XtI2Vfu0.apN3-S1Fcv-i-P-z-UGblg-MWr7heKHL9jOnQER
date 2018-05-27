@@ -1,0 +1,11 @@
+{
+    "store_items": [
+        {
+            "itemID": "item1",
+            "name": "test",
+            "desc": "test",
+            "price": "50"
+
+        }
+    ]
+}
