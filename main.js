@@ -408,8 +408,8 @@ bot.on('message', message => {
             if(!member){
                 message.reply("Y'as pas de gars avec ce nom là sur le serv t'es con ou quoi ?");
             }else{
-                member.kick().then((member) => {
                 message.channel.send(`${member.displayName} à été kick ! Dans sa gueule ! GET KICKED !!!!!!! https://media.giphy.com/media/s2p6iXjWv1CHm/giphy.gif`);
+                member.kick().then((member) => {
             }).catch(() => {
                 message.channel.send("Wesh ! t'as cru tu pouvais kick ? t'es un gangster toi ! https://media1.tenor.com/images/6a3308e1dc31e5e846608ee80b382968/tenor.gif?itemid=5960585")
             })
@@ -427,8 +427,8 @@ bot.on('message', message => {
             if(!banmember){
                 message.reply("Y'as pas de gars avec ce nom là sur le serv t'es con ou quoi ?");
             }else{
-                banmember.ban().then((member) => {
                 message.channel.send(`${member.displayName} à été ban ! En même temps, il était pas trés utile.. https://i.imgur.com/O3DHIA5.gif`);
+                banmember.ban().then((member) => {
             }).catch(() => {
                 message.channel.send("De 1, j'ai la flèmme, de 2 t'as pas les perms et de 3 t'es un fdp à vouloir ban https://media.tenor.com/images/af630f8d408127ba0a0e96a62bfb4e4c/tenor.gif ")
             })
