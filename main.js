@@ -22,13 +22,6 @@ bot.on('ready', () => {
 
 bot.login(token);
 
-bot.on("guildMemberAdd", member => {
-    member.guild.channels.find("name", "bienvenue-aurevoir").send(`:hamburger: ${member.user.username} Viens de rejoindre le serveur ! T'as les règles tout ça tout ça ! Fait pas de la merde, ou j'te frappe !`)
-})
-
-bot.on("guildMemberRemove", member => {
-    member.guild.channels.find("name", "bienvenue-aurevoir").send(`:ski: ${member.user.username} Vient de ce barrer. Rip. Bof, au pire on s'en tape nan ?`)
-})
 
 
 
