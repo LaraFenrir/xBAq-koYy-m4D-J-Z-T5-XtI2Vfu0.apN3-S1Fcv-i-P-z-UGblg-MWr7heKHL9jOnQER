@@ -96,6 +96,10 @@ bot.on('message', message => {
         message.channel.send("Un Bot développé par SCP_One_Zero_Six. En plus, j'suis beau. "); 
         console.log('ptdrtki');
     }
+    if (message.content === "*rocco"){
+    message.channel.send("Le trolleur fou lel mdr ptdr xd lol xd mdr https://cdn.discordapp.com/attachments/460504022869082114/469843774626070539/hqdefault.png"); 
+    console.log('ptdrtki');
+    }
     if (message.content === "*Wesh"){
         message.channel.send("D'ou tu dit Wesh, vieux babtou fragile. Bouge ta race de là grosse merde."); 
         console.log('Wesh');
